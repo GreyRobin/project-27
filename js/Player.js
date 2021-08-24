@@ -29,8 +29,8 @@ class Player {
     image(this.image, 0, 0, this.width, this.height);
     pop();
   }
-}
-life();{
+
+life(){
   push()
   textSize(20)
   fill("white")
@@ -43,4 +43,5 @@ life();{
   fill(this.life3)
   rect(320,50,70,30)
   pop()
+}
 }
